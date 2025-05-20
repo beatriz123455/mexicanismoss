@@ -101,14 +101,15 @@
 <!-- Página 1 - Bienvenida -->
 <div class="section active" id="bienvenida">
   <h1>¡Bienvenido a los Mexicanismos!</h1>
-  <img class="logo" src="quetzall-removebg.jpg" alt="Logo Quetzal">
+  <img class="logo" src="quetzall-removebg.jpg" style="mix-blend-mode: multiply;">
+ 
   <button onclick="mostrar('presentacion')">Comenzar</button>
 </div>
 
 <!-- Página 2 - Presentación -->
 <div class="section" id="presentacion">
   <h2>¿Qué es un Quetzal?</h2>
-  <img src="quetzal-removebg.jpg" width="200">
+  <img src="quetzal-removebg.jpg" width="200" style="mix-blend-mode: multiply;">
   <p>El quetzal es un ave sagrada y símbolo de libertad en Mesoamérica. ¡Al igual que los mexicanismos que conocerás!</p>
   <p>Los mexicanismos son expresiones únicas que reflejan la cultura y forma de hablar de México.</p>
   <button onclick="mostrar('edad')">Siguiente</button>
